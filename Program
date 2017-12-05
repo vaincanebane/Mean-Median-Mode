@@ -1,0 +1,19 @@
+# Title:  	Mean, Median and Mode
+# Purpose:	Finds mean, median, and mode in a set of numbers
+
+# Notes:	Create three functions that allow user to find mean, median, and mode
+#			No hard coding
+
+# Subgoals:
+#			In mean functions, give user option for how many decimal places to round to
+#			If even numbers in list, return both middle numbers for median
+#			If multiple modes, return all of them
+
+class Statistics():
+	def __init__(self, numbers, decimalPlaces):
+		self.numbers = numbers
+		self.numbers.sort()
+		self.decimalPlaces = decimalPlaces
+		self.mean = None
+		self.median = None
+		self.mode = None
