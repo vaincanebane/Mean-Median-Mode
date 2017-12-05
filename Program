@@ -17,3 +17,4 @@ class Statistics():
 		self.mean = None
 		self.median = None
 		self.mode = None
+#hi
